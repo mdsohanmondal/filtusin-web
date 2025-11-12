@@ -9,7 +9,7 @@ const Home = () => {
           <div className="w-full h-full absolute -top-3 md:-top-5 flex items-center justify-center">
             <div className="relative">
               <img
-                src="./src/assets/images/hero.png"
+                src="/src/assets/images/hero.png"
                 alt="images"
                 className="object-cover object-center grayscale-100 w-full h-full z-50 select-none"
               />
@@ -50,17 +50,17 @@ const Home = () => {
           <div className="happiest absolute top-[70%] left-0 w-44">
             <div className="users flex items-center justify-center -space-x-4">
               <img
-                src="./src/assets/images/user1.jpg"
+                src="/src/assets/images/user1.jpg"
                 alt="user1"
                 className="w-11 h-11 rounded-full overflow-hidden  border-3 border-zinc-900"
               />
               <img
-                src="./src/assets/images/user2.jpg"
+                src="/src/assets/images/user2.jpg"
                 alt="user2"
                 className="w-11 h-11 rounded-full overflow-hidden  border-3 border-zinc-900"
               />
               <img
-                src="./src/assets/images/user3.jpg"
+                src="/src/assets/images/user3.jpg"
                 alt="user3"
                 className="w-11 h-11 rounded-full overflow-hidden  border-3 border-zinc-900"
               />
