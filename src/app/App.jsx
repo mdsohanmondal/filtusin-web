@@ -2,6 +2,7 @@ import Navbar from '../nav/Navbar';
 import About from '../pages/About';
 import Discover from '../pages/Discover';
 import Home from '../pages/Home';
+import Smarter from '../pages/Smarter';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Home />
         <About />
         <Discover />
+        <Smarter />
       </main>
     </div>
   );
