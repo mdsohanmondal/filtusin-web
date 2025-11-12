@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+@font-face {
+  font-family: '/fonts/grunt/GRUNT_v1-Regular.otf';
+  src: url(GRUNT);
+}
+
+.about-banner-image {
+  position: relative;
+  overflow: hidden;
+}
+.about-banner-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('./src/assets/images/banner.png');
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transform-origin: center;
+  transform: scaleX(-1);
+  scale: 1.2;
+  filter: grayscale(100);
+}
